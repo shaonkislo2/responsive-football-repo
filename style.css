@@ -29,3 +29,55 @@
   padding: 15px 30px;
 
 }
+
+/* player style  */
+/* .naymer img{
+  
+  
+  width:100%;
+  
+}
+.naymer{
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  background-color: rgb(236, 234, 231);
+  
+}
+.second-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+#naymer-one{
+  width: 330px;
+  height: 474px;
+}
+#naymer-two{
+  width: 330px;
+  height: 474px;
+}
+#naymer-three{
+  width: 330px;
+  height: 474px;
+} */
+.second-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.photo-album{
+  
+}
+.photo-frame{
+  width: 330px;
+  height: 474px;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.photo img{
+  width: 100%;
+}
