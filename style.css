@@ -30,39 +30,7 @@
 
 }
 
-/* player style  */
-/* .naymer img{
-  
-  
-  width:100%;
-  
-}
-.naymer{
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 20px;
-  background-color: rgb(236, 234, 231);
-  
-}
-.second-section{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  
-}
-#naymer-one{
-  width: 330px;
-  height: 474px;
-}
-#naymer-two{
-  width: 330px;
-  height: 474px;
-}
-#naymer-three{
-  width: 330px;
-  height: 474px;
-} */
+
 .second-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -80,4 +48,66 @@
 }
 .photo img{
   width: 100%;
+}
+/* footer working */
+
+.footer-photo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.media-icon{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 25px;
+}
+.copyright{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-bottom: 63px;
+} 
+
+.football-live{
+  display: flex;
+  
+  justify-content: center;
+  background-color: whitesmoke;
+  margin-top: 100px;
+  padding-top: 50px;
+  
+}
+.live-title{
+  font-size: 80px;
+  font-weight: 800;
+  margin-right: 100px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.live-text{
+  
+font-size: 20px;
+padding-left: 40px;
+}
+.gallery-title{
+  font-size: 2em;
+  color: rgb(7, 131, 89);
+}
+.gallery{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-column-gap: 50px;
+  margin-bottom: 100px;
+  
+  
+  
+  
+  
+}
+.gallery-photo img{
+  width: 100%;
+  border: 20px solid whitesmoke;
+  
 }
