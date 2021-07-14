@@ -3,7 +3,7 @@
   display: flex;
   background-color: rgb(102, 102, 221);
   padding: 100px;
-  
+  margin-bottom: 10px;
 }
 .first-heading{
   font-size: 80px;
@@ -12,7 +12,6 @@
   margin-top: 200px;
 }
 .first-banner img{
-  
   width: 100%;
 }
 .first-banner:hover img{
@@ -27,24 +26,23 @@
   background-color: rgb(235, 62, 62);
   text-decoration: none;
   padding: 15px 30px;
-
 }
-
 
 .second-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 100px;
 }
-.photo-album{
-  
-}
+
+
 .photo-frame{
-  width: 330px;
-  height: 474px;
+  width: 300px;
+  height: 426px;
   background-color: whitesmoke;
   padding: 20px;
-  margin-left: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .photo img{
   width: 100%;
@@ -72,42 +70,46 @@
 
 .football-live{
   display: flex;
-  
   justify-content: center;
   background-color: whitesmoke;
-  margin-top: 100px;
-  padding-top: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
   
 }
 .live-title{
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 800;
-  margin-right: 100px;
-  padding-top: 20px;
+  margin-right: 150px;
+  padding-top: 50px;
   padding-left: 20px;
 }
 .live-text{
   
-font-size: 20px;
-padding-left: 40px;
+font-size: 30px;
+
+}
+.watch-highlight{
+  font-size: 20px;
+  color:whitesmoke;
+  background-color: rgb(235, 62, 62);
+  text-decoration: none;
+  padding: 10px 20px;
 }
 .gallery-title{
   font-size: 2em;
   color: rgb(7, 131, 89);
 }
-.gallery{
+ .gallery{
   display: grid;
   grid-template-columns:repeat(3,1fr);
   grid-column-gap: 50px;
   margin-bottom: 100px;
   
-  
-  
-  
-  
 }
 .gallery-photo img{
   width: 100%;
   border: 20px solid whitesmoke;
+  border-radius: 5px;
   
-}
+} 
